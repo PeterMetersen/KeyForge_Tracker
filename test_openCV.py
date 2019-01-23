@@ -5,7 +5,8 @@ from matplotlib import pyplot as plt
 
 #  Global Variables
 DOWN_SCALE = 0.3
-
+print('Python version', sys.version) # 3.6.4
+print('OpenCV version',cv.__version__) # 3.4.4
 
 
 def main(argv):
