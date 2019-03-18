@@ -1,5 +1,5 @@
-# Ignore .idea folder list
-/.idea
+# Ignore .idea folder
+.idea/*
 
 # Ignore graphic files
 *.jpg
