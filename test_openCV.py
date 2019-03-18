@@ -20,7 +20,7 @@ def main(argv):
     res = cv.resize(src, None, fx=DOWN_SCALE, fy=DOWN_SCALE, interpolation=cv.INTER_CUBIC)
     print('Size of pic after scaling: ', np.shape(res))
     print('How is it POSSIBLE?')
-    print('MAGIC!')
+    print('MAGIC! Magic i tell you')
     src = res
     #cv.namedWindow(window_name, cv.WINDOW_AUTOSIZE)
 
