@@ -1,9 +1,8 @@
 # Ignore .idea folder
-.idea/*
+**/.idea/keyforge_opnCV.iml
+**/.idea/misc.xml
+**/.idea/workspace.xml
 
 # Ignore graphic files
 *.jpg
 *.jpeg
-.idea/keyforge_opnCV.iml
-.idea/misc.xml
-.idea/workspace.xml
