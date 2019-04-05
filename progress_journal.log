@@ -22,7 +22,7 @@ I don't know how to install it otherwise. I guess pip is clever enough to do it,
             #c.NotebookApp.notebook_dir = ''
         to:
            c.NotebookApp.notebook_dir = 'local_git_folder_of_keyforge_project/Jupyter_notebooks'
-        Make sure to use forward slashes and the "Jupyter_notebooks" subfolder. Right now it's under gitignore, but I'll remove it if we decide to do so.
+        Make sure to use forward slashes and the "Jupyter_notebooks" subfolder. We can collect all our Jupyter notebooks here.
 3) You can start Jupyter Notebook by typing:
     >> jupyter notebook
     (If you installed it from Anaconda, use Anaconda Prompt and switch first to the Keyforge project environment.)

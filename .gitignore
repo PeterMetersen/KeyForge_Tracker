@@ -4,6 +4,3 @@
 # Ignore graphic files
 *.jpg
 *.jpeg
-
-# Ignore Jupyter working folder
-/Jupyter_notebooks
