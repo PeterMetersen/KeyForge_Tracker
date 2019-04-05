@@ -1,0 +1,34 @@
+### 2019/04/05 by GUSL ###
+
+JUPYTER NOTEBOOK
+I think we could use Jupyter Notebooks for testing and documenting different processing flows. Jupyter is a web-interface that supports in-line Python programming and documentation at the same time. Just google it. I came across it while watching this Youtube course on OpenCV:
+https://www.youtube.com/watch?v=jKtQxvzp1A0
+
+So the idea with Jupyter would be to test different processing methods and comment on them. We can save the Jupyter notebooks for demonstrating and documenting the core of our algorithms. I think it would be pretty powerful - not as powerful as DOORS, but still someting... :P
+
+Few notes:
+1) I installed Jupyter using Anaconda, which is a Python distro and an environment manager that I already used for setting up the Keyforge_Tracker project on my local computer. If I'm right you didn't use Anaconda to set up the project on your local computer. If you did, make sure that Jupyter is installed into the environment that the Keyforge_Tracker uses on your local computer.
+I don't know how to install it otherwise. I guess pip is clever enough to do it, but I didn't try myself.
+2) Once Jupyter is installed, you can specify the default directory where Jupyter starts by creating a Jupyter config file as follows:
+    * start Anaconda Prompt (if you used Anaconda) or a regular command prompt
+    * switch to the Keyfore project environment (only for Anaconda)
+        >> conda activate keyforge_environment_name
+    * ask Jupyter to create a default config file:
+        >> jupyter notebook --generate-config
+    * locate config file for editing. Normally it should be under:
+        C:\Users\username\.jupyter\jupyter_notebook_config
+    * uncomment following line to define the standard startup location:
+        from:
+            #c.NotebookApp.notebook_dir = ''
+        to:
+           c.NotebookApp.notebook_dir = 'local_git_folder_of_keyforge_project/Jupyter_notebooks'
+        Make sure to use forward slashes and the "Jupyter_notebooks" subfolder. Right now it's under gitignore, but I'll remove it if we decide to do so.
+3) You can start Jupyter Notebook by typing:
+    >> jupyter notebook
+    (If you installed it from Anaconda, use Anaconda Prompt and switch first to the Keyforge project environment.)
+    This should start up your browser with Jupyter Notebook active.
+4) To test that OpenCV works, create a new Python notebook and type the following two lines and excute:
+    %pylab notebook
+    import cv2
+    The prompt should drop no errors and this message:
+    "Populating the interactive namespace from numpy and matplotlib"
