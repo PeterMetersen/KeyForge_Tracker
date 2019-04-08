@@ -4,3 +4,7 @@
 # Ignore graphic files
 *.jpg
 *.jpeg
+*.png
+
+# Ignore Jupyter checkpoints
+**/Jupyter_notebooks/.ipynb_checkpoints

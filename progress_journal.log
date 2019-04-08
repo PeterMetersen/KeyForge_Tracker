@@ -32,3 +32,9 @@ I don't know how to install it otherwise. I guess pip is clever enough to do it,
     import cv2
     The prompt should drop no errors and this message:
     "Populating the interactive namespace from numpy and matplotlib"
+
+### 2019/04/07 by GUSL ###
+
+STILL ON JUPYTER
+
+I had to install the Pillow package so that imshow can be used to read .jpg files as well.
