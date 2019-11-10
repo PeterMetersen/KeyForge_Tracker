@@ -38,3 +38,10 @@ I don't know how to install it otherwise. I guess pip is clever enough to do it,
 STILL ON JUPYTER
 
 I had to install the Pillow package so that imshow can be used to read .jpg files as well.
+
+### 2019/11/04 by GUSL ###
+
+INSTALLING ANACONDA ON NEW MASHINE AND SETTING UP SYSTEM
+
+Anaconda doesn't seem to install the right version of OpenCV. However, one can use to install it via pip from the Anaconda prompt with the following command:
+pip install opencv-python
