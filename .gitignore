@@ -8,3 +8,7 @@
 
 # Ignore Jupyter checkpoints
 **/Jupyter_notebooks/.ipynb_checkpoints
+
+# Ignore the images folder
+/images/
+__pycache__/kf_image_tools.cpython-36.pyc
